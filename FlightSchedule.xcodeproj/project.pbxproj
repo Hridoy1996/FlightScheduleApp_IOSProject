@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54191CC421A6CBA3001A192B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54191CC321A6CBA3001A192B /* AppDelegate.swift */; };
+		54191CC621A6CBA3001A192B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54191CC521A6CBA3001A192B /* ViewController.swift */; };
+		54191CC921A6CBA3001A192B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54191CC721A6CBA3001A192B /* Main.storyboard */; };
+		54191CCB21A6CBA3001A192B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54191CCA21A6CBA3001A192B /* Assets.xcassets */; };
+		54191CCE21A6CBA3001A192B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54191CCC21A6CBA3001A192B /* LaunchScreen.storyboard */; };
+		54191CD921A6CBA3001A192B /* FlightScheduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54191CD821A6CBA3001A192B /* FlightScheduleTests.swift */; };
+		54191CE421A6CBA3001A192B /* FlightScheduleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54191CE321A6CBA3001A192B /* FlightScheduleUITests.swift */; };
+		541C9EDD21B0523F0020523F /* destinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541C9EDC21B0523F0020523F /* destinationViewController.swift */; };
+		542DE47B21B142FA00662459 /* searchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542DE47A21B142FA00662459 /* searchResultViewController.swift */; };
+		542DE48321B161A700662459 /* airlinesearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542DE48221B161A700662459 /* airlinesearchViewController.swift */; };
+		5475E83721A6E4EE000C5861 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5475E83621A6E4EE000C5861 /* loginViewController.swift */; };
+		549CABF221A6FF05000F4E12 /* registerpageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549CABF121A6FF05000F4E12 /* registerpageViewController.swift */; };
+		549CABF421A7036B000F4E12 /* HomepageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549CABF321A7036B000F4E12 /* HomepageViewController.swift */; };
+		549CAC0E21A892DD000F4E12 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 549CAC0021A89255000F4E12 /* SQLite.framework */; };
+		549CAC0F21A89303000F4E12 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 549CAC0021A89255000F4E12 /* SQLite.framework */; };
+		549CAC1021A89303000F4E12 /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 549CAC0021A89255000F4E12 /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		549CAC1521A99DF5000F4E12 /* pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 549CAC1421A99DF4000F4E12 /* pic.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54191CD521A6CBA3001A192B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54191CB821A6CBA3001A192B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54191CBF21A6CBA3001A192B;
+			remoteInfo = FlightSchedule;
+		};
+		54191CE021A6CBA3001A192B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54191CB821A6CBA3001A192B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54191CBF21A6CBA3001A192B;
+			remoteInfo = FlightSchedule;
+		};
+		549CABFF21A89255000F4E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 549CABF521A89253000F4E12 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247AD31C3F04ED00AE3E12;
+			remoteInfo = "SQLite iOS";
+		};
+		549CAC0121A89255000F4E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 549CABF521A89253000F4E12 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247ADD1C3F04ED00AE3E12;
+			remoteInfo = "SQLiteTests iOS";
+		};
+		549CAC0321A89255000F4E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 549CABF521A89253000F4E12 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B3C1C3F3ED000AE3E12;
+			remoteInfo = "SQLite Mac";
+		};
+		549CAC0521A89255000F4E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 549CABF521A89253000F4E12 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B451C3F3ED000AE3E12;
+			remoteInfo = "SQLiteTests Mac";
+		};
+		549CAC0721A89255000F4E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 549CABF521A89253000F4E12 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E5A1C6BB0F50062603F;
+			remoteInfo = "SQLite tvOS";
+		};
+		549CAC0921A89255000F4E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 549CABF521A89253000F4E12 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E631C6BB0F60062603F;
+			remoteInfo = "SQLiteTests tvOS";
+		};
+		549CAC0B21A89255000F4E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 549CABF521A89253000F4E12 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A121AC451CA35C79005A31D1;
+			remoteInfo = "SQLite watchOS";
+		};
+		549CAC1121A89303000F4E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 549CABF521A89253000F4E12 /* SQLite.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = EE247AD21C3F04ED00AE3E12;
+			remoteInfo = "SQLite iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		549CAC1321A89303000F4E12 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				549CAC1021A89303000F4E12 /* SQLite.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		54191CC021A6CBA3001A192B /* FlightSchedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightSchedule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54191CC321A6CBA3001A192B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54191CC521A6CBA3001A192B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54191CC821A6CBA3001A192B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54191CCA21A6CBA3001A192B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54191CCD21A6CBA3001A192B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54191CCF21A6CBA3001A192B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54191CD421A6CBA3001A192B /* FlightScheduleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlightScheduleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54191CD821A6CBA3001A192B /* FlightScheduleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightScheduleTests.swift; sourceTree = "<group>"; };
+		54191CDA21A6CBA3001A192B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54191CDF21A6CBA3001A192B /* FlightScheduleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlightScheduleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54191CE321A6CBA3001A192B /* FlightScheduleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightScheduleUITests.swift; sourceTree = "<group>"; };
+		54191CE521A6CBA3001A192B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		541C9EDC21B0523F0020523F /* destinationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = destinationViewController.swift; sourceTree = "<group>"; };
+		542DE47A21B142FA00662459 /* searchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchResultViewController.swift; sourceTree = "<group>"; };
+		542DE48221B161A700662459 /* airlinesearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = airlinesearchViewController.swift; sourceTree = "<group>"; };
+		5475E83621A6E4EE000C5861 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		549CABF121A6FF05000F4E12 /* registerpageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerpageViewController.swift; sourceTree = "<group>"; };
+		549CABF321A7036B000F4E12 /* HomepageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageViewController.swift; sourceTree = "<group>"; };
+		549CABF521A89253000F4E12 /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = "../../../Downloads/SQLite-master/SQLite.swift-master/SQLite.xcodeproj"; sourceTree = "<group>"; };
+		549CAC1421A99DF4000F4E12 /* pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pic.jpg; path = ../../../../Downloads/pic.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54191CBD21A6CBA3001A192B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				549CAC0F21A89303000F4E12 /* SQLite.framework in Frameworks */,
+				549CAC0E21A892DD000F4E12 /* SQLite.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54191CD121A6CBA3001A192B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54191CDC21A6CBA3001A192B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54191CB721A6CBA3001A192B = {
+			isa = PBXGroup;
+			children = (
+				54191CC221A6CBA3001A192B /* FlightSchedule */,
+				54191CD721A6CBA3001A192B /* FlightScheduleTests */,
+				54191CE221A6CBA3001A192B /* FlightScheduleUITests */,
+				54191CC121A6CBA3001A192B /* Products */,
+				549CABF521A89253000F4E12 /* SQLite.xcodeproj */,
+				549CAC0D21A892DD000F4E12 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		54191CC121A6CBA3001A192B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54191CC021A6CBA3001A192B /* FlightSchedule.app */,
+				54191CD421A6CBA3001A192B /* FlightScheduleTests.xctest */,
+				54191CDF21A6CBA3001A192B /* FlightScheduleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54191CC221A6CBA3001A192B /* FlightSchedule */ = {
+			isa = PBXGroup;
+			children = (
+				549CAC1421A99DF4000F4E12 /* pic.jpg */,
+				54191CC321A6CBA3001A192B /* AppDelegate.swift */,
+				54191CC521A6CBA3001A192B /* ViewController.swift */,
+				54191CC721A6CBA3001A192B /* Main.storyboard */,
+				54191CCA21A6CBA3001A192B /* Assets.xcassets */,
+				54191CCC21A6CBA3001A192B /* LaunchScreen.storyboard */,
+				54191CCF21A6CBA3001A192B /* Info.plist */,
+				5475E83621A6E4EE000C5861 /* loginViewController.swift */,
+				549CABF121A6FF05000F4E12 /* registerpageViewController.swift */,
+				549CABF321A7036B000F4E12 /* HomepageViewController.swift */,
+				541C9EDC21B0523F0020523F /* destinationViewController.swift */,
+				542DE47A21B142FA00662459 /* searchResultViewController.swift */,
+				542DE48221B161A700662459 /* airlinesearchViewController.swift */,
+			);
+			path = FlightSchedule;
+			sourceTree = "<group>";
+		};
+		54191CD721A6CBA3001A192B /* FlightScheduleTests */ = {
+			isa = PBXGroup;
+			children = (
+				54191CD821A6CBA3001A192B /* FlightScheduleTests.swift */,
+				54191CDA21A6CBA3001A192B /* Info.plist */,
+			);
+			path = FlightScheduleTests;
+			sourceTree = "<group>";
+		};
+		54191CE221A6CBA3001A192B /* FlightScheduleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54191CE321A6CBA3001A192B /* FlightScheduleUITests.swift */,
+				54191CE521A6CBA3001A192B /* Info.plist */,
+			);
+			path = FlightScheduleUITests;
+			sourceTree = "<group>";
+		};
+		549CABF621A89253000F4E12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				549CAC0021A89255000F4E12 /* SQLite.framework */,
+				549CAC0221A89255000F4E12 /* SQLiteTests iOS.xctest */,
+				549CAC0421A89255000F4E12 /* SQLite.framework */,
+				549CAC0621A89255000F4E12 /* SQLiteTests Mac.xctest */,
+				549CAC0821A89255000F4E12 /* SQLite.framework */,
+				549CAC0A21A89255000F4E12 /* SQLiteTests tvOS.xctest */,
+				549CAC0C21A89255000F4E12 /* SQLite.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		549CAC0D21A892DD000F4E12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54191CBF21A6CBA3001A192B /* FlightSchedule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54191CE821A6CBA3001A192B /* Build configuration list for PBXNativeTarget "FlightSchedule" */;
+			buildPhases = (
+				54191CBC21A6CBA3001A192B /* Sources */,
+				54191CBD21A6CBA3001A192B /* Frameworks */,
+				54191CBE21A6CBA3001A192B /* Resources */,
+				549CAC1321A89303000F4E12 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				549CAC1221A89303000F4E12 /* PBXTargetDependency */,
+			);
+			name = FlightSchedule;
+			productName = FlightSchedule;
+			productReference = 54191CC021A6CBA3001A192B /* FlightSchedule.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54191CD321A6CBA3001A192B /* FlightScheduleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54191CEB21A6CBA3001A192B /* Build configuration list for PBXNativeTarget "FlightScheduleTests" */;
+			buildPhases = (
+				54191CD021A6CBA3001A192B /* Sources */,
+				54191CD121A6CBA3001A192B /* Frameworks */,
+				54191CD221A6CBA3001A192B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54191CD621A6CBA3001A192B /* PBXTargetDependency */,
+			);
+			name = FlightScheduleTests;
+			productName = FlightScheduleTests;
+			productReference = 54191CD421A6CBA3001A192B /* FlightScheduleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54191CDE21A6CBA3001A192B /* FlightScheduleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54191CEE21A6CBA3001A192B /* Build configuration list for PBXNativeTarget "FlightScheduleUITests" */;
+			buildPhases = (
+				54191CDB21A6CBA3001A192B /* Sources */,
+				54191CDC21A6CBA3001A192B /* Frameworks */,
+				54191CDD21A6CBA3001A192B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54191CE121A6CBA3001A192B /* PBXTargetDependency */,
+			);
+			name = FlightScheduleUITests;
+			productName = FlightScheduleUITests;
+			productReference = 54191CDF21A6CBA3001A192B /* FlightScheduleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54191CB821A6CBA3001A192B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = " Hridoy ";
+				TargetAttributes = {
+					54191CBF21A6CBA3001A192B = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					54191CD321A6CBA3001A192B = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 54191CBF21A6CBA3001A192B;
+					};
+					54191CDE21A6CBA3001A192B = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 54191CBF21A6CBA3001A192B;
+					};
+				};
+			};
+			buildConfigurationList = 54191CBB21A6CBA3001A192B /* Build configuration list for PBXProject "FlightSchedule" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54191CB721A6CBA3001A192B;
+			productRefGroup = 54191CC121A6CBA3001A192B /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 549CABF621A89253000F4E12 /* Products */;
+					ProjectRef = 549CABF521A89253000F4E12 /* SQLite.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				54191CBF21A6CBA3001A192B /* FlightSchedule */,
+				54191CD321A6CBA3001A192B /* FlightScheduleTests */,
+				54191CDE21A6CBA3001A192B /* FlightScheduleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		549CAC0021A89255000F4E12 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 549CABFF21A89255000F4E12 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		549CAC0221A89255000F4E12 /* SQLiteTests iOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests iOS.xctest";
+			remoteRef = 549CAC0121A89255000F4E12 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		549CAC0421A89255000F4E12 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 549CAC0321A89255000F4E12 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		549CAC0621A89255000F4E12 /* SQLiteTests Mac.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests Mac.xctest";
+			remoteRef = 549CAC0521A89255000F4E12 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		549CAC0821A89255000F4E12 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 549CAC0721A89255000F4E12 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		549CAC0A21A89255000F4E12 /* SQLiteTests tvOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests tvOS.xctest";
+			remoteRef = 549CAC0921A89255000F4E12 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		549CAC0C21A89255000F4E12 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 549CAC0B21A89255000F4E12 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54191CBE21A6CBA3001A192B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54191CCE21A6CBA3001A192B /* LaunchScreen.storyboard in Resources */,
+				54191CCB21A6CBA3001A192B /* Assets.xcassets in Resources */,
+				549CAC1521A99DF5000F4E12 /* pic.jpg in Resources */,
+				54191CC921A6CBA3001A192B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54191CD221A6CBA3001A192B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54191CDD21A6CBA3001A192B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54191CBC21A6CBA3001A192B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				549CABF221A6FF05000F4E12 /* registerpageViewController.swift in Sources */,
+				542DE47B21B142FA00662459 /* searchResultViewController.swift in Sources */,
+				541C9EDD21B0523F0020523F /* destinationViewController.swift in Sources */,
+				54191CC621A6CBA3001A192B /* ViewController.swift in Sources */,
+				54191CC421A6CBA3001A192B /* AppDelegate.swift in Sources */,
+				5475E83721A6E4EE000C5861 /* loginViewController.swift in Sources */,
+				549CABF421A7036B000F4E12 /* HomepageViewController.swift in Sources */,
+				542DE48321B161A700662459 /* airlinesearchViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54191CD021A6CBA3001A192B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54191CD921A6CBA3001A192B /* FlightScheduleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54191CDB21A6CBA3001A192B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54191CE421A6CBA3001A192B /* FlightScheduleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54191CD621A6CBA3001A192B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54191CBF21A6CBA3001A192B /* FlightSchedule */;
+			targetProxy = 54191CD521A6CBA3001A192B /* PBXContainerItemProxy */;
+		};
+		54191CE121A6CBA3001A192B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54191CBF21A6CBA3001A192B /* FlightSchedule */;
+			targetProxy = 54191CE021A6CBA3001A192B /* PBXContainerItemProxy */;
+		};
+		549CAC1221A89303000F4E12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SQLite iOS";
+			targetProxy = 549CAC1121A89303000F4E12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54191CC721A6CBA3001A192B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54191CC821A6CBA3001A192B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54191CCC21A6CBA3001A192B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54191CCD21A6CBA3001A192B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54191CE621A6CBA3001A192B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54191CE721A6CBA3001A192B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54191CE921A6CBA3001A192B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlightSchedule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hridoy.FlightSchedule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54191CEA21A6CBA3001A192B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlightSchedule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hridoy.FlightSchedule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		54191CEC21A6CBA3001A192B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlightScheduleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hridoy.FlightScheduleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlightSchedule.app/FlightSchedule";
+			};
+			name = Debug;
+		};
+		54191CED21A6CBA3001A192B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlightScheduleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hridoy.FlightScheduleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlightSchedule.app/FlightSchedule";
+			};
+			name = Release;
+		};
+		54191CEF21A6CBA3001A192B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlightScheduleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hridoy.FlightScheduleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlightSchedule;
+			};
+			name = Debug;
+		};
+		54191CF021A6CBA3001A192B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlightScheduleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hridoy.FlightScheduleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlightSchedule;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54191CBB21A6CBA3001A192B /* Build configuration list for PBXProject "FlightSchedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54191CE621A6CBA3001A192B /* Debug */,
+				54191CE721A6CBA3001A192B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54191CE821A6CBA3001A192B /* Build configuration list for PBXNativeTarget "FlightSchedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54191CE921A6CBA3001A192B /* Debug */,
+				54191CEA21A6CBA3001A192B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54191CEB21A6CBA3001A192B /* Build configuration list for PBXNativeTarget "FlightScheduleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54191CEC21A6CBA3001A192B /* Debug */,
+				54191CED21A6CBA3001A192B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54191CEE21A6CBA3001A192B /* Build configuration list for PBXNativeTarget "FlightScheduleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54191CEF21A6CBA3001A192B /* Debug */,
+				54191CF021A6CBA3001A192B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54191CB821A6CBA3001A192B /* Project object */;
+}
